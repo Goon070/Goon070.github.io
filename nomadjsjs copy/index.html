@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" class="stylesheet">
+</head>
+<body>
+    <div class="js-alarm alarm"></div>
+    <h2 class="js-clock">00:00</h2>
+    <form class="js-form form">
+        <input type="text" placeholder="이름이 무엇인가요?" />
+    </form>
+    <h4 class="js-greeting greeting"></h4>
+    
+    <section class="toDosection">
+        <div class="empty1"></div>
+        <div class="secPadding">
+            <form class="js-checklist">
+                <input type="text" placeholder="할일을 적어주세요."/>
+            </form>
+            <ul class="js-toDolist">
+            </ul>
+        </div>
+
+        <div class="secPadding2">
+            <div class="textbox">
+                완료된 일의 목록입니다.
+            </div>
+            <ul class="js-complist">
+            </ul>
+        </div>
+        <div class="empty2"></div>
+    </section>
+
+    <div class="js-weather"></div>
+    <script src="clock.js"></script>
+    <script src="greeting.js"></script>
+    <script src="checklist.js"></script>
+    <script src="bg.js"></script>
+    <script src="weather.js"></script>
+</body>
+</html>
